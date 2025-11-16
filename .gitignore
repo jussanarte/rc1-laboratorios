@@ -1,4 +1,26 @@
-*/.vagrant/
+##############################
+## Vagrant/Virtualização
+##############################
+# Ignora todas as pastas .vagrant (que contêm as VMs)
+**/.vagrant/
+# Ignora arquivos de provisionamento e cache temporário
+*.box
+*.vbox
+*.vmdk
+Vagrantfile.bak
 
-*.log
+##############################
+## Arquivos de Configuração/Sistema
+##############################
+# Arquivos gerados por sistemas operacionais (Mac/Windows)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+##############################
+## Arquivos Temporários de Documentos
+##############################
+# Se .docx for um arquivo de output/temporário (caso do jctest.docx)
 *.tmp
+*~
+~$*

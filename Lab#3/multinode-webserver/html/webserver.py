@@ -43,7 +43,6 @@ while True:
 	# a cláusula except é executada
 	try:
 		# TODO #4: Receber a mensagem de solicitação do cliente
-		# Linha 43 corrigida:
 		message = connectionSocket.recv(1024).decode('latin-1')
 		# Extrai o caminho do objecto solicitado da mensagem
 		# O caminho é a segunda parte do cabeçalho HTTP,

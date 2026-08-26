@@ -18,9 +18,22 @@ Thumbs.db
 desktop.ini
 
 ##############################
+## Arquivos Binários de Laboratório
+##############################
+# Capturas de tráfego (Wireshark/tcpdump)
+*.pcap
+# Arquivos Cisco Packet Tracer
+*.pkt
+
+##############################
 ## Arquivos Temporários de Documentos
 ##############################
-# Se .docx for um arquivo de output/temporário (caso do jctest.docx)
+*.docx
 *.tmp
 *~
 ~$*
+
+##############################
+## Arquivos Pessoais (não versionar)
+##############################
+DESCRIÇÃO*
